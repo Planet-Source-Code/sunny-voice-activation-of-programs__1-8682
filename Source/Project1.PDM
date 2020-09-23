@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=Voice Command
+
+
+[Package|Voice Command|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Voice Command\Package
+
+[Package|Voice Command|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Voice Command|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Voice Command|Files Found]
+
+[Package|Voice Command|Files Released]
+
+[Package|Voice Command|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=
+C:\WINDOWS\SYSTEM\XVOICE.DLL=
+C:\WINDOWS\SYSTEM\XLISTEN.DLL=
+
+[Package|Voice Command|Out-of-Date Dependency Information]
+
+[Package|Voice Command|Files Added]
+
+[Package|Voice Command|Files Removed]
+
+[Package|Voice Command|Files In Project]
+C:\WINDOWS\Desktop\Voice Command\Voice Command.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\XLISTEN.DLL=Yes
+C:\WINDOWS\SYSTEM\XVOICE.DLL=Yes
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Voice Command|Configure Registry Files]
+Applicable=No
+
+[Package|Voice Command|Configure Remote Servers]
+Applicable=No
+
+[Package|Voice Command|Install Locations]
+C:\WINDOWS\Desktop\Voice Command\Voice Command.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\XLISTEN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\XVOICE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Voice Command|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Voice Command\Voice Command.exe=No
+
+[Package|Voice Command|Distribution]
+Type=single
+Size=
+Title=Voice Command
+
+[Package|Voice Command|IconGroups]
+Group0=Voice Command
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Voice Command|Voice Command]
+Icon1="Voice Command.exe"
+Title1=Voice Command
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Voice Command|Package]
+PackageFolder=C:\WINDOWS\Desktop\Voice Command\Package
+ProjectFolder=C:\WINDOWS\Desktop\Voice Command\Source
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Voice Command\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Voice Command\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Voice Command\Package\Voice Command.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
